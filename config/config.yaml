@@ -1,0 +1,10 @@
+
+port: :8080
+version: 1.0
+jwtSecret: 38324
+endpoints: []
+
+urlRewriteEnabled:    true,
+loadBalancingEnabled: false,
+forceTlsEnabled:      false,
+balancingType:        balance.WEIGHT_ROUND_ROBIN,
